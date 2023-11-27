@@ -11,27 +11,31 @@ app.get("/api", (req, res) => {
   res.json([
     {
       id: 1,
-      namaProvinsi: 'Jawa Barat',
-      namaKecamatan: 'Bandung',
-      namaDesa: 'Cibiru',
-    },
-    {
-      id: 2,
       namaProvinsi: 'Jambi',
+      namaKota: 'Kab. Tebo',
       namaKecamatan: 'Tebo Tengah',
       namaDesa: 'Tebing Tinggi',
     },
     {
+      id: 2,
+      namaProvinsi: 'Jawa Barat',
+      namaKota: 'Karawang',
+      namaKecamatan: 'Rengas Dengklok',
+      namaDesa: 'Rengas Dengklok Utara',
+    },
+    {
       id: 3,
-      namaProvinsi: 'Jawa Timur',
-      namaKecamatan: 'Surabaya',
-      namaDesa: 'Sukolilo',
+      namaProvinsi: 'Aceh',
+      namaKota: 'Gayo lues',
+      namaKecamatan: 'Blankejeren',
+      namaDesa: 'Penampaan uken',
     },
     {
       id: 4,
-      namaProvinsi: 'Aceh',
-      namaKecamatan: 'Surabaya',
-      namaDesa: 'Sukolilo',
+      namaProvinsi: 'Jawa Barat',
+      namaKota: 'Kota Bandung',
+      namaKecamatan: 'Cimenyan',
+      namaDesa: 'Mandalamekar',
     },
   ]);
 });
